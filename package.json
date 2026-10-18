@@ -1,0 +1,25 @@
+{
+  "name": "soa3",
+  "version": "1.0.0",
+  "description": "SOA Lab 3 - Dịch vụ quản lý sản phẩm (Product Management Service)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node test_api.js"
+  },
+  "keywords": [
+    "soa",
+    "product-service",
+    "rest-api",
+    "microservices"
+  ],
+  "author": "VoDaiLoc",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "sqlite3": "^5.1.7",
+    "swagger-ui-express": "^5.0.1"
+  }
+}
